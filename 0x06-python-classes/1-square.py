@@ -5,7 +5,7 @@
 
 class Square:
     """ The square implementation"""
-    __size = 3
+    __size = None
 
     def __init__(self, size):
         self.__size = size 
